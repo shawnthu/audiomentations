@@ -292,6 +292,8 @@ Things to fix before release:
 * Fix loading and normalization of 24-bit and 32-bit wav files with scipy>=1.6
 * Make sure the added distortion of TanhDistortion depends less on the loudness of the input
 * Add docstring in AddGaussianSNR that explains the new parameters.
+* Mention TanhDistortion in readme
+* Expand the tanhdistorion docstring.
 
 ### Added
 
