@@ -287,6 +287,12 @@ _The following table is valid for v0.14.0 - v0.16.0 only_
 
 ## Unreleased
 
+Things to fix before release:
+
+* Fix loading and normalization of 24-bit and 32-bit wav files with scipy>=1.6
+* Make sure the added distortion of TanhDistortion depends less on the loudness of the input
+* Add docstring in AddGaussianSNR that explains the new parameters.
+
 ### Added
 
 * Add a `fade` option in `Shift` for eliminating unwanted clicks
