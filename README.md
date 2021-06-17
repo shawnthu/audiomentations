@@ -294,6 +294,8 @@ Things to fix before release:
 * Add docstring in AddGaussianSNR that explains the new parameters.
 * Mention TanhDistortion in readme
 * Expand the tanhdistorion docstring.
+* Mention Clip in readme
+* Expand the Clip docstring explaining when it is useful and how it differs from ClippingDistortion
 
 ### Added
 
